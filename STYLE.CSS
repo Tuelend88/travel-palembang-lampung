@@ -1,0 +1,80 @@
+*,
+html {
+    margin: 0 ;
+    padding: 0 ;
+}
+.container {
+}
+
+.navbar-container {
+    background-color: black;
+    width: 100% ;
+    
+}
+
+.ul-navbar {
+background-color: blue;
+height: 10vh ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.li-nav {
+padding: auto;
+margin: auto;
+list-style-type: none;
+padding: 10px ;
+font-size: large;
+}
+.li-nav:hover {
+    background-color: black;
+    transition: .5s ease-in-out ;
+    transition-delay: .3s;
+    border-radius: 8px ;
+}
+
+.content-container {
+background-color: blueviolet;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    background-color: brown;
+    width: 50% ;
+    height: 50%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.footer-container {
+background-color: coral;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 10vh;
+}
+
+.h1-footer {
+    font-size: large;
+
+}
+
+.a-nav {
+    text-decoration: solid;
+    color: aliceblue;
+}
+
+.a-content {
+    background-color: brown;
+    width: 50% ;
+    height: 50%;
+}
